@@ -9,8 +9,8 @@ AWS_SECRET_ACCESS_KEY = ""
 
                            # /date/{2022-01-01}/sell/car 
                                             # seller-car
-                                                    # /sell/car/mercedes_benz/
-             # sell                                 # /sell/car/bmw/
+                                                    # car/bmw/
+             # default                              # car/hyundai/
 def upload_dir(profile_name, local_directory, bucket, destination):
     if(False == os.path.isdir(local_directory)):
         return False
